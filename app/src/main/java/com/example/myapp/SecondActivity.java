@@ -171,6 +171,7 @@ public class SecondActivity extends AppCompatActivity {
             special = true;
             frequency = 0;
             isDecimal = false;
+            hasSymbol = false;
             hasFirstNum = false;
             whereDecimal = 0;
         });
@@ -217,9 +218,9 @@ public class SecondActivity extends AppCompatActivity {
                     result = firstNum - secondNum;
                 }
                 input.setLength(0);
-//                input.delete(0, temp2);
                 input.append(result);
                 mTextView.setText(input);
+                hasSymbol = false;
                 Log.d(TAG, "bindCalClickEvent: Sis" + secondNum);
             }
         });
