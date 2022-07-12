@@ -1,0 +1,30 @@
+{
+  "id": "3514971",
+  "name": "Calculator",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1170",
+      "name": "计费",
+      "font_class": "jifei",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "816606",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "11372686",
+      "name": "日历",
+      "font_class": "rili",
+      "unicode": "e8b4",
+      "unicode_decimal": 59572
+    }
+  ]
+}
