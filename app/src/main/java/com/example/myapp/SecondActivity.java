@@ -216,7 +216,8 @@ public class SecondActivity extends AppCompatActivity {
                 } else {
                     result = firstNum - secondNum;
                 }
-                input.delete(0, temp2);
+                input.setLength(0);
+//                input.delete(0, temp2);
                 input.append(result);
                 mTextView.setText(input);
                 Log.d(TAG, "bindCalClickEvent: Sis" + secondNum);
