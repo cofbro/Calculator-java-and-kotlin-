@@ -11,4 +11,6 @@
 
 
 ---
-以上问题将会逐步解决，欢迎大家赐教
+以上问题将会逐步解决，欢迎大家赐教\
+此仓库已停止更新\
+最新计算器仓库地址：https://github.com/cofbro/android-Calculator/tree/main
